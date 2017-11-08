@@ -365,7 +365,10 @@ class Crawler implements \Countable, \IteratorAggregate
     {
         $data = array();
         foreach ($this->nodes as $i => $node) {
-            $data[] = $closure($this->createSubCrawler($node), $i);
+            $result = $closure($this->createSubCrawler($node), $i);
+            if($result !== null){
+                $data[] = $result;
+            }
         }
 
         return $data;
