@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\DomCrawler;
+namespace ValgaMedios\Component\DomCrawler;
 
 use Symfony\Component\CssSelector\CssSelectorConverter;
 
