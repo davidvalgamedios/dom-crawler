@@ -1,7 +1,7 @@
 {
-    "name": "symfony/dom-crawler",
+    "name": "davidvalgamedios/dom-crawler",
     "type": "library",
-    "description": "Symfony DomCrawler Component",
+    "description": "Symfony DomCrawler Component Fork",
     "keywords": [],
     "homepage": "https://symfony.com",
     "license": "MIT",
@@ -26,7 +26,7 @@
         "symfony/css-selector": ""
     },
     "autoload": {
-        "psr-4": { "Symfony\\Component\\DomCrawler\\": "" },
+        "psr-4": { "ValgaMedios\\Component\\DomCrawler\\": "" },
         "exclude-from-classmap": [
             "/Tests/"
         ]
